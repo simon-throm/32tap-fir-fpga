@@ -1,0 +1,78 @@
+# ── Vivado ────────────────────────────────────────────────────────────────────
+*.jou
+*.log
+*.str
+*.mif
+*.xpr
+*.bit
+*.bin
+*.ltx
+*.rpt
+*.dcp
+*.pb
+*.wdb
+.Xil/
+vivado*/
+vivado.jou
+vivado.log
+
+# Dossiers générés par Vivado
+**/runs/
+**/ip/
+**/bd/
+**/sim_1/behav/
+
+# ── ISE (ancien) ──────────────────────────────────────────────────────────────
+*.ngc
+*.ngd
+*.ncd
+*.pcf
+*.bgn
+*.bld
+*.cmd_log
+*.cnf
+*.drc
+*.lso
+*.map
+*.mrp
+*.ngo
+*.pad
+*.par
+*.ptwx
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xpi
+*.xst
+*.xtclsh
+iseconfig/
+_ngo/
+_xmsgs/
+xlnx_auto_0_xdb/
+
+# ── GHDL (simulation) ─────────────────────────────────────────────────────────
+*.cf
+*.o
+*.ghw
+*.vcd
+sim/
+wave/
+
+# ── GTKWave ───────────────────────────────────────────────────────────────────
+*.gtkw
+*.fst
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Éditeurs ──────────────────────────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
